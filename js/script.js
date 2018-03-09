@@ -4,10 +4,12 @@ var value = (a * a) - (2 * a * b) - (b * b);
 
 console.log("tyle wychodzi z działania: " + value);
 
-if (value > 0){
+if (value > 0) {
     console.log ('wynik dodatni');
 }
-else if (value = 0 ){'wynik nieujemny i niedodatni, czyli 0'}
+else if (value == 0) {
+    console.log('wynik nieujemny i niedodatni, czyli 0');
+}
 else {
      console.log ('wynik ujemny');
 }
